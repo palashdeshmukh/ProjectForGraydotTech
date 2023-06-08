@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    max-width: 400px;
+    height: 600px;
+    float: left;
+    text-align: center;
+    padding: 10px;
+    background-color: #2C3646;
+    box-shadow: 2px 2px 5px 0px;
+  }
+  
+  .item {
+    display: flex;
+    padding: 5px;
+    background-color:whitesmoke;
+    margin: 10px;
+    align-items: center;
+  }
+  .imageBox{
+height:60px;
+width:100%;
+max-width: 70px;
+  }
+  .textBox{
+    height:60px;
+    line-height: 60px;
+    width:100%;
+    font-size: 20px;
+    text-align: center;
+
+  }
+#wrapper{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    padding: 40px 0px;
+    background-color:#3B79AA;
+}
+.reset{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+
+}
+#button1{
+    width: 200px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color:green;
+    border: none;
+    color: white;
+    border-radius:5px;
+}
+
+#button2{
+    font-size: 25px;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color:#303848;
+    border-radius:5px;
+
+}
+#infoBox{
+    width: 100%;
+    display: none;
+}
+a{
+    color:#303848;
+}
+.info{
+    width: 100%;
+    padding:8px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    background-color:#3B79AA;
+    color: white;
+
+}
+h1{
+    text-align: center;
+    text-transform:uppercase;
+    background-color: #2C3646;
+    font-weight: bold;
+    padding: 20px;
+    word-spacing: 10px;
+    color: white;
+    max-width: 100%;
+    position: sticky;
+    top: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+footer{
+    padding: 30px;
+    width: 100%;
+    position: absolute;
+    position: -webkit-sticky;
+    bottom: 0;
+    background-color: #2C3646;
+
+}
+footer p{
+    text-align: center;
+    color: whitesmoke;
+    text-transform: capitalize;
+}
+@media (max-width:375px){
+    h1{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:1024px){
+    footer{
+        position:sticky;
+    }
+}
