@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>  
+    
+    <h1>drag and drop project</h1>
+   <div id="wrapper">
+  <div id="container1" class="container">
+    <div class="item" draggable="true">
+        <div class="imageBox" style="background-color: red;"></div>
+         <div class="textBox">Item 1</div>
+    </div>
+    <div class="item" draggable="true">
+        <div class="imageBox" style="background-color:yellow;"></div>
+        <div class="textBox">Item 2</div>
+    </div>
+    <div class="item" draggable="true">
+        <div class="imageBox" style="background-color: green;"></div>
+        <div class="textBox">Item 3</div>
+    </div>
+  </div>
+  <div id="container2" class="container"></div>
+</div>
+<div class="reset">
+  <button id="button1" onclick="reset()">Reset</button>
+</div>
+<div class="reset">
+    <button id="button2" onclick="displaymyInfo()" ondblclick="hidemyInfo()">Contact Me</button>
+</div>
+<div id="infoBox">
+    <div class="info">Palash Anil Deshmukh</div>
+    <div class="info">9075361405</div>
+    <div class="info">PALASH.DESHMUKH02@GMAIL.COM</Address></Address></div>
+    <div class="info"><a type="text" href="https://www.linkedin.com/in/palashdeshmukh/" target="_blank">MY LINKED IN PROFILE</a></div>
+</div>
+<footer><p>this project is developed by palash deshmukh on June 8 2023</p></footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
